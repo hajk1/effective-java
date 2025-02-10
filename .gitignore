@@ -1,0 +1,45 @@
+# Ignore IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore build files and directories
+/target/
+/build/
+
+# Ignore Maven wrapper files
+.mvn/
+.mvn/wrapper/
+
+# Ignore Gradle wrapper files
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore JVM related files
+*.log
+*.class
+hs_err_pid*
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific directories
+/.idea/
+/.idea_modules/
+
+# Ignore local configuration files
+*.iml
+*.ipr
+*.iws
+
+# Ignore dependencies
+*.jar
+*.war
+*.ear
+*.db
+
+# Ignore the application.properties (if you want to avoid committing sensitive information)
+src/main/resources/application.properties
